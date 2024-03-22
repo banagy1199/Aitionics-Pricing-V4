@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.svg-container {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container-xxl {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.plot-container {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.plotly {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.data-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Additional Styling Suggestions:
+   - Add transitions for smooth animations
+   - Use background colors or gradients to enhance visual appeal
+   - Experiment with different box-shadow effects for depth
+   - Adjust padding and margins for better spacing and alignment
+*/
