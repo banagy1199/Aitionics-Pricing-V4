@@ -20,7 +20,7 @@ def main():
 
         # ------------------------------- Menu -------------------------------
         menu = option_menu(menu_title=None, menu_icon=None, orientation="horizontal",
-                           options=["Overview", "Price Analysis", "Customer Insights", "Product Performance", "Summary Charts"])
+                           options=["Overview","Summary Charts", "Price Analysis", "Customer Insights", "Product Performance"])
         if menu == "Overview":
             # ------------------------------- Welcome Messages -------------------------------
             df_year_1, df_year_2, delta_df_filtered = get_notification_filters(df, delta_df)
